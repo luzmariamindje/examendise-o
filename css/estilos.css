@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Brother1816;
+    src: url(../fonts/Brother1816-Black.woff2);
+}
+@font-face {
+    font-family:Brother1816P ;
+    src: url(font/Brother1816Printed-Regular.woff2);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: Brother1816-Black;
+    font-size: 35px;
+}
+.texto{
+    text-align: center;
+}
+
+/* BODY */
+body {
+    margin: 0;
+   background-color:white;
+   box-sizing: border-box;
+
+}
+ 
+.container{
+ max-width: 1440px;
+background-color:white ;
+justify-content: center;
+
+ 
+}
+/* NAVBAR */
+nav{
+    height: 800px;
+    background-image: url(../img/principal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: center;
+}
+
+.principal{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    box-sizing: 20px;
+    font-family:Brother1816;
+}
+
+
+
+h1, h5{
+    display: flex;
+}
+
+h2{
+    display: flex;
+}
+.primertitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    font-family: Brother1816;
+    font-size: 55px;
+}
+.segundotitle{
+  font-family: Brother1816;
+  justify-content: center;
+  align-content: center;
+}
+
+.articulos{
+    background-color: #E9EAE8;
+    padding: 120px 33px 0 33px;
+    
+}
+
+
+.imagenes{
+    display: flex;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 160px;
+}
+figcaption{
+    text-align: center;
+    padding: 0px 50px 100px 50px;
+}
+figure>hr{
+
+    margin-top: 100px;
+    width: 40px;
+    height: 1px;
+}
+.fondo{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+}
+.figcaption{
+ font-family: Brother1816;
+ text-align:center;
+}
+
+.primeraimagen{
+    display:flex;
+}
+.seccion1{
+    background-color: white;
+    margin-bottom: 55px;
+    padding: 100px;
+    
+}
+.login{
+ 
+    text-align:center;
+    background-color: #D7DBD6;
+    font-family: Brother1816;
+   padding: 30px;
+}
+.formalogin{
+  padding: 10px;
+  border-radius: 5px;
+}
+.login-btn{
+    margin-top: 20px;
+}
+footer{
+    background-color:white;
+}
+.text{
+    text-align: center;
+    padding: 30px;
+    width: 20px;
+}
+
+
